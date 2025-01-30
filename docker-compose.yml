@@ -2,7 +2,7 @@ version: '3.1'
 services:
  db:
    image: postgres:13
-   container_name: db_erp
+   container_name: db_erp2
    environment:
      - POSTGRES_DB=the_bear
      - POSTGRES_PASSWORD=admin
@@ -13,7 +13,7 @@ services:
      - local_pgdata:/var/lib/postgresql/data
  pgadmin:
    image: dpage/pgadmin4
-   container_name: pg_erp
+   container_name: pg_erp2
    ports:
      - "80:80"
    environment:
