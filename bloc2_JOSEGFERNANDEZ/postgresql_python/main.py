@@ -12,3 +12,6 @@ for i in results:
     print('Telefòn: ' + i[3])
     print('Email: ' + i[4])
     print('Neixament: ' + i[5])
+
+
+print(cr.create_reg())

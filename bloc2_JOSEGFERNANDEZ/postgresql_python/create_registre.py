@@ -1,7 +1,7 @@
 import connect
 
 #Funció per crear un registre a la DB amb una consulta preparada
-def create_red():
+def create_reg():
 
     #Crear la connexió i guardar-la a la variable conn
     conn = connect.connection_db()
@@ -16,10 +16,10 @@ def create_red():
     values = ('Roger', 'carrer el que sigui', '678113452', 'correu@correu.com', '12_09_1999')
 
     #Enviar la consulta preparada amb els valors utilitzant el cursor
-    cursor.execute(sql_create, value)
+    cursor.execute(sql_create, values)
     #Fer les modificacions a la DB segons execute()
     conn.commit()
 
     #Tancar connexió
     conn.close()
-    cursor.close()∫
+    cursor.close()
