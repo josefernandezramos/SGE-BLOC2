@@ -14,3 +14,5 @@
 ![vista-tabla-pgadmin](bloc2_JOSEGFERNANDEZ/img/5-vista-tabla-pgadmin.png)
 
 ![create_registre](bloc2_JOSEGFERNANDEZ/img/6-create_registre.png)
+
+![tabla-Clientes](bloc2_JOSEGFERNANDEZ/img/7-tabla-clientes.png)
