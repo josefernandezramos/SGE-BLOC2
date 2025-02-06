@@ -3,7 +3,7 @@
 ##Provar si la connexió és correcte
 ###
 
-![llamada_conn](bloc2_JOSEGFERNANDEZ/IMG/1- llamada_conexion.png)
+![llamada_conn](bloc2_JOSEGFERNANDEZ/img/1-llamada_conexion.png)
 
 ![create-able](bloc2_JOSEGFERNANDEZ/img/2-create_tables.png)
 
