@@ -15,4 +15,4 @@ def read_reg():
     print(results[4][3])
     return results
 
-read_reg()
+print(read_reg())
