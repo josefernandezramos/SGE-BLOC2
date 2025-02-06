@@ -10,5 +10,7 @@ def read_reg():
     conn.commit()
 
     results = cursor.fetchall()
-
+    print(results)
     return results
+
+read_reg()
