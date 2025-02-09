@@ -1,12 +1,12 @@
 import connect
 
 def delete_reg():
-    conn.connect.connection_db()
+    conn = connect.connection_db()
     cursor = conn.cursor()
 
     sql_delete = '''
-    DELETE FROM Clientes
-    WHERE id_cliente = 28
+    DELETE FROM clientes
+    WHERE nombre_cliente = 'Lewis'
     '''
 
     cursor.execute(sql_delete)
