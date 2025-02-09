@@ -6,9 +6,8 @@ def update_reg():
 
     sql_update = '''
     UPDATE clientes
-    SET nombre_cliente = "Juan Manuel"
-    SET telefóno_cliente=000000000
-    WHERE nombre_cliente = "Roger"
+    SET nombre_cliente = 'Lewis'
+    WHERE nombre_cliente = 'Roger'
     '''
 
     cursor.execute(sql_update)
