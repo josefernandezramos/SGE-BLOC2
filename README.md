@@ -1,7 +1,7 @@
 # SGE-BLOC2 
 José G. Fernández DAM1B
 
-## CONEXIÓN A UNA BASA DE DATOS
+## CONEXIÓN A UNA BASE DE DATOS
 
 ![llamada_conn](bloc2_JOSEGFERNANDEZ/img/1-llamada_conexion.png)
 
